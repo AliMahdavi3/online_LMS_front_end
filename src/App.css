@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+body {
+  background-image: url(../public/assets/image/img-body.png);
+  background-size: contain;
+}
+
+* {
+  scroll-behavior: smooth;
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(../public/assets/fonts/BungeeSpice-Regular.ttf);
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar {
+  border-radius: 0 0 25px 25px;
+  box-shadow: 5px 5px 5px 5px rgb(196, 196, 196);
+}
+
+.navbar_logo {
+  font-family: "myfont";
+}
+
+.footer {
+  border-radius: 30px 30px 0px 0px;
+}
+
+.close_btn {
+  border: 2px solid wheat;
+}
+
+/* =================================Custom Scrollbars============================ */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(5, 80, 99);
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #034736;
+} */
+
+/* =======================================Content=============================== */
+
+.background {
+  background-image: url(../public/assets/image/img-body.png);
+  background-size: contain;
+}
