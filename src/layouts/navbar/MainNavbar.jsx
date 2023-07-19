@@ -3,8 +3,8 @@ import { FaAlignJustify, FaWindowClose } from "react-icons/fa";
 import { Link } from "react-router-dom";
 let Links = [
   { name: "فروشگاه", src: "/shop" },
-  { name: "خدمات", src: "/" },
-  { name: "آموزش", src: "/" },
+  { name: "پرسش و پاسخ", src: "/" },
+  { name: "مدرسین", src: "/" },
   { name: "بلاگ", src: "/" },
 ];
 const MainNavbar = () => {
@@ -40,7 +40,7 @@ const MainNavbar = () => {
           className={`md:flex -mr-7 mt-6 md:mt-0 md:mr-0
            md:items-center md:pb-0 pb-12 absolute md:static
             bg-cyan-900 w-full md:w-auto md:pl-0 transition-all duration-700 ease-in ${
-              open ? "top-12" : "top-[-490px]"
+              open ? "top-14" : "top-[-490px]"
             }`}
         >
           {Links.map((link) => (
@@ -54,8 +54,8 @@ const MainNavbar = () => {
             </li>
           ))}
           <div className="flex  justify-center">
-            <a href="login" className="btn text-center cursor-pointer w-40 pb-2 rounded-full bg-white hover:bg-slate-400 text-black md:ml-8 font-semibold px-3 py-1 duration-300 md:static">
-              ورود
+            <a href="login" className="btn text-center cursor-pointer w-20 pb-2 rounded-full bg-white hover:bg-slate-400 text-black md:ml-8 font-semibold px-3 py-1 duration-300 md:static">
+            ورود
             </a>
           </div>
         </ul>

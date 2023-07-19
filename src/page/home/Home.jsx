@@ -2,7 +2,6 @@ import React from "react";
 import About from "./About";
 import TopCourses from "./TopCourses";
 import OnlineClasses from "./OnlineClasses";
-import Subscription from "./Subscription";
 import HomeFooter from "./HomeFooter";
 import MainCarousel from "./carousel/MainCarousel";
 
@@ -20,9 +19,6 @@ const Home = () => {
       <hr className="w-8/12 container mt-10" />
       {/* online classes */}
       <OnlineClasses />
-      <hr className="w-8/12 container my-10" />
-      {/* subscription */}
-      <Subscription />
       <hr className="w-8/12 container my-10" />
       {/* footer */}
       <HomeFooter />
