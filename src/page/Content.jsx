@@ -9,6 +9,8 @@ import Pudcast from "./shop/pudcast/Pudcast";
 import Translate from "./shop/translate/Translate";
 import Login from "./auth/Login";
 import Register from "./auth/Register";
+import Question from "./question/Question";
+import Teachers from "./teachers/Teachers";
 
 const Content = () => {
   return (
@@ -20,8 +22,10 @@ const Content = () => {
       <Route path="/shop/articles" element={<Articles />} />
       <Route path="/shop/pudcast" element={<Pudcast />} />
       <Route path="/shop/translate" element={<Translate />} />
+      <Route path="/question" element={<Question />} />
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
+      <Route path="/teachers" element={<Teachers/>} />
     </Routes>
   );
 };

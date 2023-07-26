@@ -3,8 +3,8 @@ import { FaAlignJustify, FaWindowClose } from "react-icons/fa";
 import { Link } from "react-router-dom";
 let Links = [
   { name: "فروشگاه", src: "/shop" },
-  { name: "پرسش و پاسخ", src: "/" },
-  { name: "مدرسین", src: "/" },
+  { name: "پرسش و پاسخ", src: "/question" },
+  { name: "مدرسین", src: "/teachers" },
   { name: "بلاگ", src: "/" },
 ];
 const MainNavbar = () => {
