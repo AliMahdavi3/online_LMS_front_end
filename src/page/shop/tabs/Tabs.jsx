@@ -1,5 +1,6 @@
 import React from "react";
 import { FaDiscourse, FaBehance, FaPodcast, FaBook, FaGlide } from "react-icons/fa"
+import { NavLink } from "react-router-dom";
 
 const Tabs = () => {
   return (
@@ -7,33 +8,33 @@ const Tabs = () => {
       <div>
         <ul className="md:flex-row flex flex-wrap items-center justify-around mt-10 mb-20">
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <a href="#course" className="cursor-pointer mx-2">
+            <NavLink to="/shop/course" className="cursor-pointer mx-2">
               دوره ها
-            </a>
+            </NavLink>
             <FaDiscourse className="text-purple-800" />
           </li>
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <a href="#books" className="cursor-pointer mx-2">
+            <NavLink to="/shop/books" className="cursor-pointer mx-2">
               کتاب ها
-            </a>
+            </NavLink>
             <FaBook className="text-purple-800" />
           </li>
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <a href="#pudcast" className="cursor-pointer mx-2">
+            <NavLink to="/shop/pudcast" className="cursor-pointer mx-2">
               پادکست ها
-            </a>
+            </NavLink>
             <FaPodcast className="text-purple-800" />
           </li>
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <a href="#translate" className="cursor-pointer mx-2">
+            <NavLink to="/shop/translate" className="cursor-pointer mx-2">
               ترجمه ها
-            </a>
+            </NavLink>
             <FaBehance className="text-purple-800" />
           </li>
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <a href="#articles" className="cursor-pointer mx-2">
+            <NavLink to="/shop/articles" className="cursor-pointer mx-2">
               مقالات ها
-            </a>
+            </NavLink>
             <FaGlide className="text-purple-800" />
           </li>
         </ul>

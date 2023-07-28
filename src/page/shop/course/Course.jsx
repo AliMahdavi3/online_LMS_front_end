@@ -11,7 +11,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
@@ -27,7 +27,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
@@ -43,7 +43,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
@@ -59,7 +59,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
@@ -75,7 +75,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
@@ -91,7 +91,7 @@ const Course = () => {
         <div className="grid col-span-3 md:col-span-1">
           <Card
             imgAlt="Meaningful alt text for an image that is not purely decorative"
-            imgSrc="./assets/image/team-job.jpg"
+            imgSrc="/assets/image/team-job.jpg"
           >
             <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>

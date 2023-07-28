@@ -26,7 +26,7 @@ const Shop = () => {
       <div id="course">
         <Course/>
       </div>
-      <div id="books">
+      {/* <div id="books">
         <Books/>
       </div>
       <div id="articles">
@@ -37,7 +37,7 @@ const Shop = () => {
       </div>
       <div id="translate">
         <Translate/>
-      </div>
+      </div> */}
       {/* pagination */}
       <Pagination/>
       </div>

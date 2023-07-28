@@ -9,7 +9,7 @@ const Articles = () => {
       </h1>
       <div className="grid grid-cols-2 gap-5 mx-5">
         <div className="grid col-span-2 md:col-span-1">
-          <Card horizontal imgSrc="./assets/image/team-job.jpg">
+          <Card horizontal imgSrc="/assets/image/team-job.jpg">
             <h5 className="text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
             </h5>
@@ -22,7 +22,7 @@ const Articles = () => {
           </Card>
         </div>
         <div className="grid col-span-2 md:col-span-1">
-          <Card horizontal imgSrc="./assets/image/team-job.jpg">
+          <Card horizontal imgSrc="/assets/image/team-job.jpg">
             <h5 className="text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
             </h5>
@@ -35,7 +35,7 @@ const Articles = () => {
           </Card>
         </div>
         <div className="grid col-span-2 md:col-span-1">
-          <Card horizontal imgSrc="./assets/image/team-job.jpg">
+          <Card horizontal imgSrc="/assets/image/team-job.jpg">
             <h5 className="text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
             </h5>
@@ -48,7 +48,7 @@ const Articles = () => {
           </Card>
         </div>
         <div className="grid col-span-2 md:col-span-1">
-          <Card horizontal imgSrc="./assets/image/team-job.jpg">
+          <Card horizontal imgSrc="/assets/image/team-job.jpg">
             <h5 className="text-2xl  font-bold tracking-tight text-gray-900 dark:text-white">
               <p>Noteworthy technology acquisitions 2021</p>
             </h5>
