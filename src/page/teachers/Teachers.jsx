@@ -6,7 +6,7 @@ const Teachers = () => {
     <div>
       <div className='mt-32 flex justify-center items-center'>
         <div className='grid grid-cols-4'>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -26,7 +26,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -46,7 +46,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -66,7 +66,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -86,7 +86,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -106,7 +106,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -126,7 +126,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -146,7 +146,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>
@@ -166,7 +166,7 @@ const Teachers = () => {
                     <FaTwitter className='text-2xl text-blue-600'/>
                 </div>
             </div>
-            <div className='col-span-4 my-5 md:col-span-2 md:mx-5 xl:col-span-1 lg:col-span-1 lg:mx-5 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
+            <div className='col-span-4 my-5 md:col-span-2 md:mx-10 md:w-56 lg:w-64 lg:col-span-1 w-72 h-96 shadow-2xl bg-stone-50 rounded-3xl'>
                 <div className='flex justify-center items-center'>
                     <img src="/assets/image/avatar.png" alt="avatar" className='w-20 my-5'/>
                 </div>

@@ -26,18 +26,6 @@ const Shop = () => {
       <div id="course">
         <Course/>
       </div>
-      {/* <div id="books">
-        <Books/>
-      </div>
-      <div id="articles">
-        <Articles/>
-      </div>
-      <div id="pudcast">
-         <Pudcast/>
-      </div>
-      <div id="translate">
-        <Translate/>
-      </div> */}
       {/* pagination */}
       <Pagination/>
       </div>

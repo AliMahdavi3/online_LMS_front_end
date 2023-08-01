@@ -8,9 +8,9 @@ const Tabs = () => {
       <div>
         <ul className="md:flex-row flex flex-wrap items-center justify-around mt-10 mb-20">
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
-            <NavLink to="/shop/course" className="cursor-pointer mx-2">
+            <a href="#course" className="cursor-pointer mx-2">
               دوره ها
-            </NavLink>
+            </a>
             <FaDiscourse className="text-purple-800" />
           </li>
           <li className="flex my-3 items-center shadow-lg shadow-teal-700 bg-slate-100 hover:bg-pink-600 rounded-lg duration-300 px-2 py-3 font-semibold">
