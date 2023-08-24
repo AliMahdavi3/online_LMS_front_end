@@ -11,6 +11,7 @@ import Login from "./auth/Login";
 import Register from "./auth/Register";
 import Question from "./question/Question";
 import Teachers from "./teachers/Teachers";
+import RoadMap from "./home/RoadMap";
 
 const Content = () => {
   return (
@@ -26,6 +27,7 @@ const Content = () => {
       <Route path="/login" element={<Login/>} />
       <Route path="/register" element={<Register/>} />
       <Route path="/teachers" element={<Teachers/>} />
+      <Route path="/roadmap" element={<RoadMap/>} />
     </Routes>
   );
 };

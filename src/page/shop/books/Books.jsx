@@ -1,14 +1,17 @@
 import { Card } from "flowbite-react";
 import React from "react";
+import BackButton from "../backButton/BackButton";
 
 const Books = () => {
   return (
     <>
       <div className="mt-32">
-
-        <h1 className="my-5 mx-10 font-semibold text-2xl underline text-slate-600">
-          کتاب ها
-        </h1>
+        <div className="flex justify-between my-5 mx-10">
+          <h1 className="font-semibold text-2xl underline text-slate-600">
+            کتاب ها
+          </h1>
+          <BackButton/>
+        </div>
         <div className="grid grid-cols-3 gap-5 my-10 mx-5">
           <div className="grid col-span-3 md:col-span-1">
             <Card
