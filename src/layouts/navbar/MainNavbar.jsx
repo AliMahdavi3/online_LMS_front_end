@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaAlignJustify, FaWindowClose } from "react-icons/fa";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 let Links = [
   { name: "فروشگاه", src: "/shop" },
   { name: "پرسش و پاسخ", src: "/question" },
@@ -9,6 +9,15 @@ let Links = [
 ];
 const MainNavbar = () => {
   let [open, setOpen] = useState(false);
+  const navigate = useNavigate();
+
+  const loginToken = JSON.parse(localStorage.getItem('Token'));
+
+  const handleLogout = () => {
+    localStorage.removeItem("Token");
+    navigate('/login');
+  }
+
   return (
     <div className="shadow-md w-full z-50 fixed navbar top-0 left-0">
       <div className="md:flex items-center navbar justify-between bg-cyan-900 py-2 md:px-10 px-7">
@@ -39,12 +48,11 @@ const MainNavbar = () => {
         <ul
           className={`md:flex -mr-7 mt-6 md:mt-0 md:mr-0
            md:items-center md:pb-0 pb-12 absolute md:static
-            bg-cyan-900 w-full md:w-auto md:pl-0 transition-all duration-700 ease-in ${
-              open ? "top-14" : "top-[-490px]"
+            bg-cyan-900 w-full md:w-auto md:pl-0 transition-all duration-700 ease-in ${open ? "top-14" : "top-[-490px]"
             }`}
         >
-          {Links.map((link) => (
-            <li className="text-center md:ml-8 md:my-0 my-7 font-semibold">
+          {Links.map((link, index) => (
+            <li key={index} className="text-center md:ml-8 md:my-0 my-7 font-semibold">
               <Link
                 to={link.src}
                 className="text-white hover:text-blue-400 duration-500"
@@ -54,9 +62,24 @@ const MainNavbar = () => {
             </li>
           ))}
           <div className="flex  justify-center">
-            <a href="login" className="btn text-center cursor-pointer w-20 pb-2 rounded-full bg-white hover:bg-slate-400 text-black md:ml-8 font-semibold px-3 py-1 duration-300 md:static">
-            ورود
-            </a>
+            {
+              loginToken ? (
+
+                <button onClick={handleLogout} className="btn text-center cursor-pointer w-20 pb-2 
+            rounded-full bg-white hover:bg-slate-400
+             text-black md:ml-8 font-semibold px-3 py-1 duration-300 md:static">
+                  خروج
+                </button>
+              ) : (
+
+                <a href="login" className="btn text-center cursor-pointer w-20 pb-2 
+            rounded-full bg-white hover:bg-slate-400
+             text-black md:ml-8 font-semibold px-3 py-1 duration-300 md:static">
+                  ورود
+                </a>
+              )
+            }
+
           </div>
         </ul>
       </div>
